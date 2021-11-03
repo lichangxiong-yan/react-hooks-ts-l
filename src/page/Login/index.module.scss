@@ -1,0 +1,32 @@
+.login {
+  background: rgb(35,39,65);
+  height: 100%;
+  .loginHead {
+    color: #fff;
+    font-size: 3rem; 
+    text-align: center; 
+    padding-top: 14rem;
+  }
+  .container {
+    width: 400px;
+    min-height: 56rem;
+    // height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -28rem;
+    margin-left: -20rem;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 50px;
+  }
+  .containerTitle {
+    margin-bottom: 2.4rem; 
+    color: #fff;
+    text-align: center
+  }
+  .loginFoot {
+    text-align: center
+ }
+
+}
+
