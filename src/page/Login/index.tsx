@@ -12,12 +12,9 @@ import styles from './index.module.scss'
 
 const Login = () => {
   const [isRegister, setIsRegister] = useState<Boolean>(false)
-  const _click = () => {
-    // const fi: number[] = [1, 2, 4]
-  }
   return (
     <div className={styles.login}>
-      <div className={styles.loginHead} onClick={_click}>你好xxxx</div>
+      <div className={styles.loginHead}>你好xxxx</div>
       <div className={styles.container}>
         <h3 className={styles.containerTitle}>{!isRegister ? '请登入' : '请注册'}</h3>
         {
