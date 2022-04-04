@@ -8,14 +8,17 @@ import {
 import { UserOutlined, LockOutlined } from "@ant-design/icons"
 // import axios from 'axios'
 
-export default function index() {
+export default function Index() {
+  const submit = () => {
+    console.log('333-')
+  }
   return (
     <div>
       <Form
         name="normal_login"
         className="login-form"
         initialValues={{ remember: true }}
-      // onFinish={this.onFinish}
+      onFinish={submit}
       >
         <Form.Item
           name="username"

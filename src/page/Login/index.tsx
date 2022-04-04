@@ -8,12 +8,10 @@ import React, { useState } from 'react'
 // import { UserOutlined, LockOutlined } from "@ant-design/icons"
 import RegisterScreen from './RegisterScreen'
 import LoginScreen from './LoginScreen'
-
 import styles from './index.module.scss'
 
 const Login = () => {
   const [isRegister, setIsRegister] = useState<Boolean>(false)
-
   return (
     <div className={styles.login}>
       <div className={styles.loginHead}>你好xxxx</div>
