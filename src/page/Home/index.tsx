@@ -1,12 +1,17 @@
 import React from 'react'
+import { Layout } from 'antd'
+const { Header, Sider, Content } = Layout
 
-export default function index() {
+const Home = () => {
   return (
-    <div>
-      你好首页
-      想在首页写点东西
-      这里是1.0.1分支的说明
-      这里是1.0.2分支的说明
-    </div>
+    <Layout style={{ height: '100%' }}>
+      <Sider>Sider</Sider>
+      <Layout>
+        <Header style={{ background: '#fff' }}>Header</Header>
+        <Content>Content</Content>
+      </Layout>
+    </Layout>
   )
 }
+
+export default Home

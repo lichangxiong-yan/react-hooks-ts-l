@@ -126,11 +126,11 @@ const Router = () => {
     <HashRouter>
        <Switch>
           <Route path="/login" component={Login} />
+          <Route path="/home" component={Home} />
           <Route
             path="/"
             render={() =>
-              localStorage.getItem("tokenSession") ? <Home /> : <Redirect to="/login" />}
-          />
+              localStorage.getItem("tokenSession") ? <Home /> : <Redirect to="/login" />} />
           {/* <Redirect to="/dashBoard" />
           <Redirect from="/" to="/home" exact /> */}
         </Switch>

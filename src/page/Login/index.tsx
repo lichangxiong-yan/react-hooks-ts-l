@@ -14,7 +14,6 @@ const Login = () => {
   const [isRegister, setIsRegister] = useState<Boolean>(false)
   return (
     <div className={styles.login}>
-      <div className={styles.loginHead}>你好xxxx</div>
       <div className={styles.container}>
         <h3 className={styles.containerTitle}>{!isRegister ? '请登入' : '请注册'}</h3>
         {
